@@ -129,7 +129,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Add this line in your settings.py
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'profile_pics')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'profile_pics',)]
 
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #IMAGE
